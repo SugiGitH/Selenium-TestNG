@@ -25,6 +25,7 @@ public class BaseTests {
 	    driver.manage().window().maximize();
 	    driver.get("https://opensource-demo.orangehrmlive.com/");	    
 	    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(TIMEOUT));
+        System.out.println("Hello World");
 
     }
    
